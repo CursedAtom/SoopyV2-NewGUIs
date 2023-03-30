@@ -56,6 +56,7 @@ class Settings {
         ChatLib.command("", true);
     }
     Buttons, mostly for moving GUI elements
+    
     @SwitchProperty({
         name: "",
         description: "",

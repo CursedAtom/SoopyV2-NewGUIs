@@ -86,7 +86,7 @@ class Settings {
             subcategory: "Bestiary",
             placeholder: "Move"
         })
-        config_bestiary_slot1Move = true; /**@todo change this later */
+        config_bestiary_slot1Move = true; /**@todo change this later, crashes game */
 
         @SwitchProperty({
             name: "Bestiary Slot #2",
@@ -112,7 +112,7 @@ class Settings {
             subcategory: "Bestiary",
             placeholder: "Move"
         })
-        config_bestiary_slot2Move = true; /**@todo change this later */
+        config_bestiary_slot2Move = true; /**@todo change this later, crashes game */
 
         //End Bestiary
 
@@ -236,7 +236,7 @@ class Settings {
             subcategory: "Dungeon Solvers",
             placeholder: "Move"
         })
-        config_dungeonSolvers_moveLividHp = true; /**@todo change this later */
+        config_dungeonSolvers_moveLividHp = true; /**@todo change this later, crashes game */
 
         @SwitchProperty({
             name: "Box Around Correct Livid",
@@ -269,7 +269,7 @@ class Settings {
             subcategory: "Dungeon Solvers",
             placeholder: "Move"
         })
-        config_dungeonSolvers_moveSpiritBowTimer = true; /**@todo change this later */
+        config_dungeonSolvers_moveSpiritBowTimer = true; /**@todo change this later, crashes game */
 
         @SwitchProperty({
             name: "Timer for Spirit Bear Spawn",
@@ -286,7 +286,7 @@ class Settings {
             subcategory: "Dungeon Solvers",
             placeholder: "Move"
         })
-        config_dungeonSolvers_moveSpiritBearSpawnTimer = true; /**@todo change this later */
+        config_dungeonSolvers_moveSpiritBearSpawnTimer = true; /**@todo change this later, crashes game */
 
         @SwitchProperty({
             name: "Timer for Fire Freeze Staff on f3/m3",
@@ -303,7 +303,7 @@ class Settings {
             subcategory: "Dungeon Solvers",
             placeholder: "Move"
         })
-        config_dungeonSolvers_moveFireFreezeTimer = true; /**@todo change this later */
+        config_dungeonSolvers_moveFireFreezeTimer = true; /**@todo change this later, crashes game */
 
         @SwitchProperty({
             name: "Assist Blood Camp",
@@ -328,7 +328,7 @@ class Settings {
             subcategory: "Dungeon Solvers",
             placeholder: "Move"
         })
-        config_dungeonSolvers_moveShowRunSpeed = true; /**@todo change this later */
+        config_dungeonSolvers_moveShowRunSpeed = true; /**@todo change this later, crashes game */
 
         @SwitchProperty({
             name: "Show Score Calculation",
@@ -345,7 +345,7 @@ class Settings {
             subcategory: "Dungeon Solvers",
             placeholder: "Move"
         })
-        config_dungeonSolvers_moveShowScoreCalc = true; /**@todo change this later */
+        config_dungeonSolvers_moveShowScoreCalc = true; /**@todo change this later, crashes game */
 
         @SwitchProperty({
             name: "Blaze Puzzle Solver",
@@ -378,7 +378,7 @@ class Settings {
             subcategory: "Dungeon Solvers",
             placeholder: "Move"
         })
-        config_dungeonSolvers_moveMaskCooldown = true; /**@todo change this later */
+        config_dungeonSolvers_moveMaskCooldown = true; /**@todo change this later, crashes game */
 
         @SwitchProperty({
             name: "Spirit Mask Timer OUTSIDE Dungeons",
@@ -488,7 +488,7 @@ class Settings {
             category: "Events",
             subcategory: "Events",
         })
-        config_events_... = true;
+        config_events_ = true;
 
 }
 

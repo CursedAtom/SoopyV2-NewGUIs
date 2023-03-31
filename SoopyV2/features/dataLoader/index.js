@@ -185,6 +185,7 @@ this.firstLoaded=true;
 }
 }
 this.isInSkyblock=Scoreboard.getTitle()?.removeFormatting().includes("SKYBLOCK");
+this.isInSkyblock=Scoreboard.getTitle()?.removeFormatting().includes("SKIBLOCK");
 
 if(!this.isInSkyblock){
 this.stats={};

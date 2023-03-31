@@ -90,7 +90,8 @@ class Hud extends Feature {
             "&d": "§dd (Pink)",
             "&e": "§ee (Yellow)",
             "&f": "§ff (White)",
-            "§Z": "§ZSBA Chroma"
+            "§Z": "§ZSBA Chroma",
+            "§z": "§zNEU Chroma"
         })
         // this.hudColorSetting.getValue() + "Name&7>" -- used to add the color to the gui element
         this.fpsEnabledSetting = new ToggleSetting("Fps enabled", "Whether the fps is rendered onto the screen", true, "fps_enabled", this)

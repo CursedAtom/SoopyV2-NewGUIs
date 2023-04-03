@@ -1,0 +1,79 @@
+
+[betterguis]
+
+	[betterguis.betterguis]
+		custom_museum_gui = true
+		inventory_search_bar = true
+		custom_dungeon_ready-up_gui = true
+		custom_hp_and_mana_bar = true
+		improve_clicks_in_sb_menu = true
+		main_toggle = true
+
+[general]
+
+	[general.general]
+		test = true
+		alert = false
+		display = false
+		auto_detect_floor = true
+		style = 0
+		floor = 0
+
+[settings]
+
+	[settings.settings]
+		test = true
+
+[dungeon_solvers]
+
+	[dungeon_solvers.dungeon_solvers]
+		blaze_puzzle_solver = true
+		spirit_mask_timer_outside_dungeons = true
+		"change_withermancer_death_message_to_\"forgor\"" = true
+		show_livid_hp = true
+		ice_spray_drop_ping = true
+		"terminal,_device,_and_lever_waypoints_for_f7/m7" = true
+		"bonzo_mask_proc'ed_alert" = true
+		box_around_correct_livid = true
+		"guardian_hp_for_f3/m3" = true
+		timer_for_spirit_bow_self_destruct = true
+		assist_blood_camp = true
+		show_score_calculation = true
+		"spirit_mask_proc'ed_alert" = true
+		stair_stonk_helper = true
+		"timer_for_bonzo/spirit_mask_cooldown" = true
+		main_toggle = true
+		"show_how_many_terms/devices_people_did" = true
+		message_shown_on_bonzo_mask_used = ""
+		timer_for_spirit_bear_spawn = true
+		"timer_for_fire_freeze_staff_on_f3/m3" = true
+		show_run_speed_and_exp_rates = true
+		correct_livid_finder = true
+		hide_nametags_of_incorrect_livids = true
+		terracotta_respawn_timer = true
+		message_shown_on_spirit_mask_used = ""
+
+[bestiary]
+
+	[bestiary.bestiary]
+		"bestiary_slot_#1" = true
+		"bestiary_slot_#2_type" = 0
+		box_around_bestiary_mobs = true
+		"bestiary_slot_#1_type" = 0
+		"bestiary_slot_#2" = true
+		main_toggle = true
+
+[events]
+
+	[events.events]
+		 = true
+		main_toggle = true
+
+[cosmetics]
+
+	[cosmetics.cosmetics]
+		cosmetics_visible_in_first_person = true
+		dragon_wings_toggle = true
+		main_toggle = true
+		audio_for_own_cosmetics = true
+

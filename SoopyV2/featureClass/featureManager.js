@@ -359,6 +359,8 @@ logger.logMessage("Loading settings",4);
 
 let data=FileLib.read("soopyAddonsData","soopyaddonsbetafeaturesdata.json");
 
+//let data = FileLib.read('SoopyV2', 'config.toml');
+
 if(!data){
 this.loadDefaultFeatureSettings();
 return;

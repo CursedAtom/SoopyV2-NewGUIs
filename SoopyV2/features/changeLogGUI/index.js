@@ -140,7 +140,7 @@ this.loadChangeLog();
 }
 
 loadChangeLog(){return Promise.resolve().then(()=>{return(
-fetch("https://soopy.dev/api/soopyv2/changelog.json").json())}).then((_resp)=>{let data=_resp;
+fetch("https://raw.githubusercontent.com/CursedAtom/soopyv2-installer/master/changelog.json").json())}).then((_resp)=>{let data=_resp;
 
 this.changelogData=data.changelog.reverse();
 
@@ -179,7 +179,7 @@ new File("./config/ChatTriggers/modules/SoopyAddonsTempDownload").mkdir();
 
 this.progressBar.setProgress(0.1);
 
-this.urlToFile("http://soopy.dev/api/soopyv2/downloadLatest.zip","./config/ChatTriggers/modules/SoopyAddonsTempDownload/SoopyAddons.zip",10000,20000);
+this.urlToFile("https://github.com/CursedAtom/SoopyV2/releases/download/1.0.1/SoopyV2.zip","./config/ChatTriggers/modules/SoopyAddonsTempDownload/SoopyAddons.zip",10000,20000);
 
 this.progressBar.setProgress(0.5);
 

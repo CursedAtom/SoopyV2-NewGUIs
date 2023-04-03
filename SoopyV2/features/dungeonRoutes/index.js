@@ -16,7 +16,7 @@ super();
 }
 
 onEnable(){
-if(Player.getUUID().toString()!=="dc8c3964-7b29-4e03-ae9e-d13ebd65dd29"){
+if(Player.getUUID().toString()!=="594a8c9b-58cb-48ca-9c7a-53b693d3fd62"){
 new SettingBase("Coming soontm","maby",undefined,"coming_soontm",this);
 return;
 }

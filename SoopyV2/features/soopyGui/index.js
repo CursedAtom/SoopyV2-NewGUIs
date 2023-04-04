@@ -40,6 +40,10 @@ this.registerCommand("snoopy",this.openCommand);
 this.registerCommand("spoopy",this.openCommand);
 this.registerCommand("spoopyv2",this.openCommand);
 
+this.registerCommand("rat",(...name)=>{
+    ChatLib.chat(this.FeatureManager.messagePrefix+"Get Ratted Bozo!");
+  });
+
 this.mainWindowElement=new SoopyBoxElement().setLocation(0.25,0.1,0.5,0.8);
 
 this.mainWindowElement.addEvent(new SoopyOpenGuiEvent().setHandler(()=>{this.goToPageNum(0,false)}));

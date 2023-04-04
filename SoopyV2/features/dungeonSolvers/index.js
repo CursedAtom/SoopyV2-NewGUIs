@@ -387,6 +387,7 @@ this.ffCountdownTo=0;
 
 this.registerChat("${name} activated a lever! (${start}/${end})",(name,start,end)=>{
 if(name.includes(">"))return;
+ChatLib.chat(this.FeatureManager.messagePrefix+"Leap to: "+name); // experimental, working on this for macmacoo
 if(this.area===-1){
 this.area=0;
 this.termsDone.clear();

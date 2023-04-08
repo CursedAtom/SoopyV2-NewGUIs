@@ -3,7 +3,7 @@ import{numberWithCommas}from"./numberUtils";
 
 let SoopyV2Forge=Java.type("me.soopyboo32.soopyv2forge.SoopyV2Forge").INSTANCE;
 
-let LASTEST_SOOPYFORGE_VER="1.1";
+let LASTEST_SOOPYFORGE_VER="1.2";
 let canUseForgeRendering=net.minecraftforge.fml.common.Loader.isModLoaded("soopyv2forge");
 
 let ArrayList=Java.type("java.util.ArrayList");

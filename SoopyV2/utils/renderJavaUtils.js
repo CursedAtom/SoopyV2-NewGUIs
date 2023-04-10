@@ -391,7 +391,7 @@ if(!net.minecraftforge.fml.common.Loader.isModLoaded("soopyv2forge")){
 ChatLib.chat("&1"+ChatLib.getChatBreak("-").trim());
 ChatLib.chat("\xA7cWARNING: You dont have the forge mod for soopyv2 installed");
 ChatLib.chat("\xA7cWARNING: -> almost nothing can be rendered");
-new TextComponent(" &e[CLICK] &7- Download").setHover("show_text","&2Download").setClick("open_url","https://github.com/Soopyboo32/SoopyV2Forge/releases").chat();
+new TextComponent(" &e[CLICK] &7- Download").setHover("show_text","&2Download").setClick("open_url","https://github.com/CursedAtom/SoopyV2Forge/releases").chat();
 ChatLib.chat("Or if u want to remove soopyv2 run /ct delete soopyv2");
 ChatLib.chat("&1"+ChatLib.getChatBreak("-").trim());
 }

@@ -483,6 +483,117 @@ class Settings {
     config_events_mainToggle = true
 
         @SwitchProperty({
+            name: "Load burials from Particles",
+            description: "Will load particles from burrows in the world",
+            category: "Events",
+            subcategory: "Events"
+        })
+        config_events_loadBurials = true;
+
+        
+        @SwitchProperty({
+            name: "Estimate burial location from ability",
+            description: "Will show a line + box where it thinks the burial is",
+            category: "Events",
+            subcategory: "Events"
+        })
+        config_events_estimateBurial = true;
+        
+        @ButtonProperty({
+            name: "NOTE: You must have music disabled",
+            description: "for burial guesses to work (/togglemusic)",
+            category: "Events",
+            subcategory: "Events",
+            placeholder: "/togglemusic"
+        })
+        action() {
+            ChatLib.command("togglemusic", false);
+        }
+        
+        @SwitchProperty({
+            name: "Show other users inquis locations",
+            description: "If disabled, others can't see your inquis",
+            category: "Events",
+            subcategory: "Events"
+        })
+        config_events_sendInquisLocation = true;
+
+        @SwitchProperty({
+            name: "Show cool title when someone's inquis spawned",
+            description: "Useful for loot share",
+            category: "Events",
+            subcategory: "Events"
+        })
+        config_events_showInquisTitle = true;
+        
+        @SwitchProperty({
+            name: "Only SEND inquis ping to party members",
+            description: "If not in a party, it still sends",
+            category: "Events",
+            subcategory: "Events"
+        })
+        config_events_sendInquisPartyOnly = false;
+        
+        @SwitchProperty({
+            name: "Only RECIEVE inquis ping from party members",
+            description: "prevents trolling (sending fake inquis messages)",
+            category: "Events",
+            subcategory: "Events"
+        })
+        config_events_recieveInquisPartyOnly = false;
+        
+        @SwitchProperty({
+            name: "Render Mythological Mobs hp on your screen",
+            description: "This will help you to know their HP.",
+            category: "Events",
+            subcategory: "Events"
+        })
+        config_events_renderMythosHp = true;
+        
+        @ButtonProperty({
+            name: "Mythological Mobs Hp Location",
+            description: "Allows you to edit the location of Mythological Mobs hp",
+            category: "Events",
+            subcategory: "Events",
+            placeholder: "Move"
+        })
+        action() {
+            ChatLib.command("", true); /** @todo change this because it breaks*/
+        }
+        
+        @SwitchProperty({
+            name: "Tia fairy task thingo",
+            description: "",
+            category: "Events",
+            subcategory: "Events"
+        })
+        config_events_tiaFairyThingo = true;
+        
+        @TextProperty({
+            name: "There is also a hotkey to warp to nearest burial",
+            description: "see minecraft controls menu. set the default warp keybind here.: (eg. KEY_F, must follow)",
+            category: "Events",
+            subcategory: "Events",
+        })
+        config_events_ = true;
+        
+        @SwitchProperty({
+            name: "",
+            description: "",
+            category: "Events",
+            subcategory: "Events",
+        })
+        config_events_ = true;
+        
+        @SwitchProperty({
+            name: "",
+            description: "",
+            category: "Events",
+            subcategory: "Events",
+        })
+        config_events_ = true;
+        
+        @SwitchProperty({
             name: "",
             description: "",
             category: "Events",
